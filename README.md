@@ -8,8 +8,8 @@ Connection pooling is a technique that allows multiple database connections to b
 
 ## Features
 
-- Centralized connection management
-- Efficient resource utilization
+- Centralized connection management 
+- Efficient resource utilization 
 - Controlled concurrency
 - Improved performance
 - Scalability
@@ -27,21 +27,18 @@ Connection pooling is a technique that allows multiple database connections to b
 ### Installation and Setup
 
 ### Install Dependencies:
-bash
-Copy code
-npm install
+- bash
+- npm install
 
 ### Initialize Prisma:
-bash
-Copy code
-npx prisma init
-Update Prisma Schema:
+- bash
+- npx prisma init
+- Update Prisma Schema:
 
 
 ### Create and Run Migrations:
-npx prisma migrate dev --name init
-Sign Up for Prisma Accelerate:
-
+- npx prisma migrate dev --name init
+- Sign Up for Prisma Accelerate:
 Register for Prisma Accelerate to get a managed connection pooling solution for serverless applications.
 
 ### Generate an API Key:
@@ -49,26 +46,26 @@ Obtain an API key from Prisma Accelerate and update your .env file with the conn
 env
 DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=your_key"
 ### Install Prisma Accelerate Extension:
-bash
+- bash
 npm install @prisma/extension-accelerate
 
 ### Generate Prisma Client for Serverless Environments:
-bash
-npx prisma generate --no-engine
+- bash
+npx prisma generate --no-engine<br>
 command = "npm run deploy"
 
 ### Deploy to Cloudflare Workers
-Login to Cloudflare:
-bash
-wrangler login
+- Login to Cloudflare:
+- bash
+wrangler login <br>
 Publish Your Worker:
 wrangler publish
 
 ## Dependencies
-Node.js
-Prisma
-Cloudflare Workers
-Hono
-Wrangler CLI
+- Node.js
+- Prisma
+- Cloudflare Workers
+- Hono
+- Wrangler CLI
 
 
